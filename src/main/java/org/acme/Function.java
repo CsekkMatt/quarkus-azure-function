@@ -12,6 +12,8 @@ import com.microsoft.azure.functions.annotation.HttpTrigger;
 import jakarta.inject.Inject;
 import java.util.Optional;
 
+import org.acme.service.GreetingService;
+
 /**
  * Azure Functions with HTTP Trigger integrated with Quarkus
  */
